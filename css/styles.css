@@ -1,0 +1,46 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f4266;
+  --hero-backround: #2e2f42b2;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.contact-text {
+  color: var(--);
+}
+
+.contact-text:hover,
+.contact-text:focus {
+  color: var(--);
+}
+
+.filters-list {
+  color: var(--);
+}
+
+.filter-button {
+  background-color: var(--light);
+  color: var(--primary-brand);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--pressed-state);
+  color: var(--accent);
+}
